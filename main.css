@@ -16,7 +16,7 @@ body {
 
 .header__content {
   background-color: #000;
-  background-image: url("/assets/image/bg-image.png");
+  background-image: url("./assets/image/bg-image.png");
   background-repeat: no-repeat;
   background-position-x: center;
   width: 100%;
@@ -71,7 +71,7 @@ body {
 
 .social {
   text-align: center;
-  margin-top: 163px;
+  margin-top: 159px;
 }
 .social__title {
   color: #ffffff;
@@ -89,7 +89,7 @@ body {
   font-weight: 400;
   line-height: 140%;
   margin-top: 20px;
-  margin-bottom: 28px;
+  margin-bottom: 31px;
 }
 .btn {
   display: inline-block;
@@ -140,18 +140,16 @@ body {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
-  line-height: 140%;
+  line-height: 143%;
   width: 407px;
-  margin-top: 24px;
-  margin-bottom: 32px;
+  margin-top: 22px;
+  margin-bottom: 29px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .dedicated {
   color: #373737;
-  font-family: "Roboto - Medium";
-  font-size: 14px;
+  font-family: Roboto;
   font-weight: 700;
-  line-height: 19.6px;
 }
 .rappresent__img {
   height: auto;
@@ -177,8 +175,8 @@ body {
   letter-spacing: 2.4px;
   line-height: 20px;
   text-transform: uppercase;
-  margin-top: 20px;
-  margin-bottom: 14px;
+  margin-top: 21px;
+  margin-bottom: 12px;
 }
 .community__text {
   color: #4e4e4e;
@@ -196,7 +194,7 @@ body {
   display: flex;
   justify-content: start;
   margin-bottom: 18px;
-  margin-left: 538px;
+  margin-left: 534px;
 }
 .slider__number {
   margin-right: 5px;
@@ -236,8 +234,8 @@ body {
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-top: 325px;
-  margin-bottom: 25px;
+  margin-top: 327px;
+  margin-bottom: 23px;
 }
 .implement__subtitle {
   width: 407px;
@@ -245,12 +243,14 @@ body {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
-  line-height: 19.6px;
-  margin-bottom: 31px;
+  line-height: 20px;
+  margin-bottom: 30px;
 }
-
+.implement__btn {
+  width: 180px;
+}
 .subscribe {
-  background-image: url("/assets/image/pexels-christina-morillo-1181675_1.png");
+  background-image: url("./assets/image/pexels-christina-morillo-1181675_1.png");
   background-repeat: no-repeat;
   background-position-x: center;
   height: 598px;
@@ -264,10 +264,10 @@ body {
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
-  padding-top: 200px;
+  padding-top: 202px;
 }
 .email__form {
-  margin-top: 30px;
+  margin-top: 32px;
   width: 340px;
   height: 46px;
   margin-right: 0;
@@ -285,7 +285,7 @@ body {
   margin-left: 0;
   position: relative;
   top: 1px;
-  right: 5px;
+  right: 4px;
 }
 .fa-check:hover {
   background: #009cc2;
@@ -311,15 +311,15 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
-  margin-bottom: 31px;
+  margin-bottom: 30px;
 }
 .btn__store {
-  width: 195px;
+  width: 187px;
   height: 48px;
   background: linear-gradient(to right, #00afdb 68%, #009cc2 32%);
   text-align: left;
-  margin-bottom: 180px;
-  padding-left: 35px;
+  margin-bottom: 177px;
+  padding-left: 18px;
   margin-right: 24px;
 }
 .btn__store:last-child {
@@ -330,13 +330,13 @@ body {
 }
 .store__img--apple {
   position: relative;
-  right: -28px;
+  right: -36px;
   top: 4px;
   z-index: 1;
 }
 .store__img--android {
   position: relative;
-  right: -25px;
+  right: -34px;
   top: 8px;
   z-index: 1;
 }
@@ -346,10 +346,10 @@ body {
   background-color: #000000;
 }
 .footer__nav {
-  margin-top: 72px;
+  margin-top: 75px;
   margin-right: 380px;
   margin-bottom: 90px;
-  margin-left: 155px;
+  margin-left: 160px;
 }
 .footer__nav__item {
   position: relative;
@@ -359,7 +359,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
-  margin-right: 40px;
+  margin-right: 37px;
   text-decoration: none;
 }
 .footer__nav__item:last-child {
@@ -391,5 +391,5 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
-  margin-top: 72px;
+  margin-top: 75px;
 }
